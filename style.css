@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 40px;
+}
+
+.blue{
+  background-color: lightblue;
+}
+.green{
+  background-color: lightgreen;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.darkpurple{
+  background-color: darkorchid;
+}
