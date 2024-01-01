@@ -5,32 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Two-Column Grid with 4 and 3 Columns</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 20px;
-      }
-
-      th,
-      td {
-        border: 1px solid rgb(0, 0, 0);
-        padding: 8px;
-        text-align: left;
-      }
-
-      th {
-        background-color: #e6e6e6;
-      }
-
-      .left-column {
-        width: 60%; /* Adjust the width as needed */
-      }
-
-      .right-column {
-        width: 40%; /* Adjust the width as needed */
-      }
-    </style>
   </head>
   <body>
     <h3 style="text-align: center">Driver Count and Calculations Table</h3>
@@ -41,9 +15,7 @@
         <!-- Left Column with 4 Columns -->
         <td class="left-column">
           <table>
-            <caption>
-              Driver & Customer Count
-            </caption>
+            <p>Driver & Customer Count</p>
             <thead>
               <tr>
                 <th>Passenger</th>
@@ -89,6 +61,54 @@
                 <td>Passenger Total</td>
                 <td>$ 0.00</td>
               </tr>
+              <!-- new head -->
+              <thead>
+                <tr>
+                  <th>Passenger</th>
+                  <th>Quantity</th>
+                  <th>Charge each</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+            </tbody>
+
+            <tbody>
+              <tr>
+                <td>Tubes</td>
+                <td class="blue"></td>
+                <td>1.00$</td>
+                <td>$ 0.00</td>
+              </tr>
+              <tr>
+                <td>Lawnmowers/ATV/Motorcycle</td>
+                <td class="blue"></td>
+                <td class="green"></td>
+                <td>$ 0.00</td>
+              </tr>
+              <tr>
+                <td>Lawnmowers/ATV/Motorcycle with RIM</td>
+                <td class="blue"></td>
+                <td>$25.00</td>
+                <td>$ 0.00</td>
+              </tr>
+              <tr>
+                <td>Passenger/Light</td>
+                <td class="blue"></td>
+                <td class="green"></td>
+                <td>$ 0.00</td>
+              </tr>
+              <tr>
+                <td>Passenger/Light truck with Rim</td>
+                <td class="blue"></td>
+                <td>$25.00</td>
+                <td>$ 0.00</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class=""></td>
+                <td>Passenger Total</td>
+                <td>$ 0.00</td>
+              </tr>
               <!-- Add more rows as needed -->
             </tbody>
           </table>
@@ -97,9 +117,49 @@
         <!-- Right Column with 3 Columns -->
         <td class="right-column">
           <table>
-            <caption>
-              2nd Count/Rowdy
-            </caption>
+            <p>2nd Count/Rowdy</p>
+            <thead>
+              <tr>
+                <th>Passenger</th>
+                <th>Quantity</th>
+                <th>RESUE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tubes</td>
+                <td class="purple"></td>
+                <td class="darkpurple"></td>
+              </tr>
+              <tr>
+                <td>Lawnmowers/ATV/Motorcycle</td>
+                <td class="purple"></td>
+                <td class="darkpurple"></td>
+              </tr>
+              <tr>
+                <td>Lawnmowers/ATV/Motorcycle with RIM</td>
+                <td class="purple"></td>
+                <td class="darkpurple"></td>
+              </tr>
+              <tr>
+                <td>Passenger/Light</td>
+                <td class="purple"></td>
+                <td class="darkpurple"></td>
+              </tr>
+              <tr>
+                <td>Passenger/Light truck with Rim</td>
+                <td class="purple"></td>
+                <td class="darkpurple"></td>
+              </tr>
+              <tr>
+                <td style="color: white">asd</td>
+                <td class=""></td>
+                <td class=""></td>
+              </tr>
+              <!-- Add more rows as needed -->
+            </tbody>
+
+            <!-- new head -->
             <thead>
               <tr>
                 <th>Passenger</th>
