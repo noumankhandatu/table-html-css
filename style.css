@@ -19,6 +19,7 @@ td {
   border: 1px solid rgb(0, 0, 0);
   padding: 8px;
   text-align: left;
+  font-weight: bold;
 }
 
 th {
@@ -26,11 +27,11 @@ th {
 }
 
 .left-column {
-  width: 60%; /* Adjust the width as needed */
+  width: 55%;
 }
 
 .right-column {
-  width: 40%; /* Adjust the width as needed */
+  width: 45%;
 }
 .blue {
   background-color: #c8f8fb;
@@ -46,3 +47,55 @@ th {
 .darkpurple {
   background-color: #636da5;
 }
+
+.gray {
+  background-color: #e6e6e6;
+}
+
+.btn1 {
+  padding: 5px;
+  height: 40px;
+  background-color: #c8f8fb;
+  color: black;
+  width: 30%;
+  font-weight: bold;
+  border: 2px solid black;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.btn2 {
+  padding: 5px;
+  height: 40px;
+  background-color: #89bf71;
+  color: black;
+  font-weight: bold;
+  width: 30%;
+  border: 2px solid black;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.btn3 {
+  padding: 5px;
+  height: 40px;
+  background-color: #636da5;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  width: 30%;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.btn4 {
+  padding: 5px;
+  height: 45px;
+  background-color: #e6e6e6;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
